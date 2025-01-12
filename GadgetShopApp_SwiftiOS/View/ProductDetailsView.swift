@@ -30,7 +30,7 @@ struct ProductDetailsView: View {
                                 Image("p1")
                                     .resizable()
                             case .empty:
-                                ProgressView() // Loading indicator
+                                ProgressView() // Loading the indicator
                             @unknown default:
                                 fatalError()
                             }
